@@ -1,0 +1,252 @@
+body{
+    background-image:url(../images/shop-5.jpg);
+    background-position:40% 80%;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 100%;
+}
+.v1 a
+{
+background-color:#22438c;
+}
+    
+ul .dropdown {
+    padding: 0px !important;
+}
+.v2 a
+{
+background-color: #22438c;
+    
+}
+.v3 a
+{
+background-color:#22438c;
+}
+.v4 a
+{
+background-color: #22438c;
+}
+
+.onorder{
+    list-style: none;
+        padding:0;
+        margin:5px 10px;
+
+        font-family: monospace;
+    }
+    
+    .onorder li{
+        display: inline-block;
+        position:relative;
+
+    }
+    .onorder li a{
+        text-align: center;
+        display:block;
+        padding:10px 20px;
+        color:white;
+        text-decoration: none;
+       
+        font-size: 20px;
+    }
+    .onorder li ul.dropdown li{
+        display: block;
+    }
+    .onorder li ul.dropdown {
+        width: 100%;
+    
+        background: #22438c;
+         position:absolute;
+         z-index: 999;
+        display:none;
+        
+    }
+    .onorder li a:hover {
+       
+        background: #112c66;
+    }
+    .onorder li:hover ul.dropdown {
+        display:block;
+    }
+    
+    .onorder li ul.drop li{
+        display: block;
+    }
+    .onorder li ul.drop {
+        width: 100%;
+        background: #22438c;
+         position:absolute; 
+        display:none;
+    }
+    .onorder li a:hover {
+        background: #112c66;
+    }
+    .onorder li:hover ul.drop {
+        display: block;
+    }
+    
+    
+    
+    .onorder li ul.drop li{
+        display: block;
+    }
+    .onorder li ul.drop {
+        width: 100%;
+        background: #22438c;
+         position:absolute; 
+        display:none;
+    }
+    .onorder li a:hover {
+        background: #112c66;
+    }
+    .onorder li:hover ul.drop {
+        display: block;
+    }
+
+
+    ul .dropdown {
+        margin-left: 0%;
+    }
+    ul .dropdown li a{
+        font-size: 15px !important;
+    }
+    
+
+    .usr
+{
+width: 40px;
+border-radius:25px;
+cursor: pointer;
+margin-right:200px;
+margin:0%;
+}
+.cart
+{
+width: 40px;
+border-radius:25px;
+cursor: pointer;
+margin-right:200px;
+margin: 0%;
+}
+.search
+{
+width: 40;
+border-radius:25px;
+cursor: pointer;
+margin-right:200px;
+margin:0%;
+}
+.ur ul{
+    display: inline-block;
+        position:relative;
+
+}
+
+
+.drop{
+    list-style: none;
+        padding:0px 20px 0px 20px;
+        margin:15px 10px;
+}
+.drop li{
+    display: inline-block;
+        position:relative;
+}
+.drop li a{
+    text-align: center;
+    display:block;
+    padding:0px;
+    color:white;
+    text-decoration: none;
+   
+    font-size: 5px;
+}
+.drop li ul.do li{
+    display: block;
+}
+.drop li ul.do {
+    width: 100%;
+    background: #22438c;
+     position:absolute;
+     z-index: 999;
+    display:none;
+    
+}
+.drop li a:hover {
+       
+    background: #112c66;
+}
+.drop li:hover ul.do {
+    display:block;
+}
+.drop li ul.do li{
+    display: block;
+}
+.drop li ul.do {
+    width: 100%;
+    margin:0%;
+    padding:25px 20px;
+    background:transparent;
+    
+    position:absolute; 
+    z-index: 999;
+    display:none;
+
+}
+.drop li a:hover {
+    background:blue;
+}
+.drop li:hover ul.do {
+    display: block;
+}
+ul .do {
+    width:100%;
+    margin:10%;
+    
+    
+}
+ul .do li a{
+    font-size: 15px !important;
+}
+
+
+ul{
+    list-style: none;
+    padding:0;
+    margin:0px 10px;
+
+        font-family:Calibri;
+    }
+    ul li{
+        display: inline-block;
+        position: relative;
+    }
+    ul li a{
+        text-align:center;
+        display:block;
+        padding:20px 25px;
+        color:white;
+        text-decoration: none;
+       
+        font-size: 15px;
+    }
+    ul li ul.cate li{
+        display: block;
+    }
+    ul li ul.cate {
+        width: 100%;
+    
+        background:blue(219, 30, 68, 0.799);
+         position:absolute;
+        Z-index:999; 
+        display:none;
+        
+    }
+    ul li a:hover {
+       
+    background:blue;
+    }
+    ul li:hover ul.cate {
+        display: block;
+    }
+    
